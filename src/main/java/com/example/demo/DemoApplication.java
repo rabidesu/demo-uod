@@ -16,7 +16,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String getInfo() {
-        return "You are inside the application";
+        return "You are inside the application v2";
     }
 
     @GetMapping("/info")
